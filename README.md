@@ -1,10 +1,7 @@
-================================
-=== OJS ExternalProcessing Plugin
-=== Version: 1.0
-=== Release date: Sept. 1, 2011
-=== Author: Center for Digital Research and Scholarship, Columbia Univ. <info@cdrs.columbia.edu>
-=== Contributions: 
-================================
+OJS ExternalProcessing Plugin
+Version: 1.0
+Release date: Sept. 1, 2011
+Author: Center for Digital Research and Scholarship, Columbia Univ
 
 About
 -----
