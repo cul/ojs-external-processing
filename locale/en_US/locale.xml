@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale.xml
+  *
+  * Copyright (c) 2011 Center for Digital Research and Scholarship, Columbia University
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the en_US (U.S. English) locale.
+  *
+  * $Id$
+  -->
+ 
+<locale name="en_US" full_name="U.S. English">
+	<message key="plugins.generic.externalProcessing.archive.decompressionsuccess">Files successfully decompressed</message>
+	<message key="plugins.generic.externalProcessing.archive.decompressionfailure.genericError">Errors occurred while expanding archive, but files may still be available.</message>
+	<message key="plugins.generic.externalProcessing.archive.decompressionfailure.badArchive">Archive format contains a severe error.</message>
+	<message key="plugins.generic.externalProcessing.archive.decompressionfailure.memoryError">Unable to allocate memory.</message>
+	<message key="plugins.generic.externalProcessing.archive.decompressionfailure.archiveNotFound">Expected archive not found.</message>
+	<message key="plugins.generic.externalProcessing.archive.decompressionfailure.filesNotFound">Expected files not found in archive.</message>
+	<message key="plugins.generic.externalProcessing.archive.decompressionfailure.diskFull">Disk full.</message>
+	<message key="plugins.generic.externalProcessing.archive.decompressionfailure.prematureEOA">Premature end of archive found while expanding archive.</message>
+	<message key="plugins.generic.externalProcessing.archive.decompressionfailure.unknown">Unknown errors occurred while expanding archive.</message>
+	<message key="plugins.generic.externalProcessing.archive.download">Download archive</message>
+	<message key="plugins.generic.externalProcessing.archive.received">Article received</message>
+	<message key="plugins.generic.externalProcessing.archive.round">Round</message>
+	<message key="plugins.generic.externalProcessing.archive.sent">Article sent</message>
+	<message key="plugins.generic.externalProcessing.archive.old">Archive already extracted</message>
+	<message key="plugins.generic.externalProcessing.debriefing"><p>If files were just imported you may have to refresh this page to see the galleys. Not seeing the galleys on this page doesn't affect publishing of articles.</p></message>
+	<message key="plugins.generic.externalProcessing.description">This plugin provides functionality for Charlesworth to receive/handle copyediting tasks</message>
+	<message key="plugins.generic.externalProcessing.displayname">Charlesworth Plugin</message>
+	<message key="plugins.generic.externalProcessing.ftphost">FTP Host</message>
+	<message key="plugins.generic.externalProcessing.ftpuser">FTP User</message>
+	<message key="plugins.generic.externalProcessing.ftppassword">FTP Password</message>
+	<message key="plugins.generic.externalProcessing.ftpdirectorysend">Send to FTP Directory</message>
+	<message key="plugins.generic.externalProcessing.ftpdirectoryreceive">Receive FTP Directory</message>
+	<message key="plugins.generic.externalProcessing.import.session.id">Session ID:</message>
+	<message key="plugins.generic.externalProcessing.import.session.date">Date:</message>
+	<message key="plugins.generic.externalProcessing.import.session.archive">Source archive:</message>
+	<message key="plugins.generic.externalProcessing.import.decompress">Decompressed:</message>
+	<message key="plugins.generic.externalProcessing.import.xml">XML imported:</message>
+	<message key="plugins.generic.externalProcessing.import.files">Files imported:</message>
+	<message key="plugins.generic.externalProcessing.import.file.id">File ID:</message>
+	<message key="plugins.generic.externalProcessing.manager.settings">Settings</message>
+	<message key="plugins.generic.externalProcessing.mkdirmode">UNIX permissions to set on directory after creation</message>
+	<message key="plugins.generic.externalProcessing.mkdirchgrp">UNIX group to set on directory after creation</message>
+	<message key="plugins.generic.externalProcessing.name">externalProcessingplugin</message>
+	<message key="plugins.generic.externalProcessing.pending">Pending</message>
+	<message key="plugins.generic.externalProcessing.round.publish">Publish this round</message>
+	<message key="plugins.generic.externalProcessing.round.process">Use this round</message>
+	<message key="plugins.generic.externalProcessing.sendarticlefields">Send article fields</message>
+	<message key="plugins.generic.externalProcessing.sendarticlefields.description">Please enter a line delimited list of classes.article.Article fields to send to Charlesworth along with the manuscript, supplementary files, etc.</message>
+	<message key="plugins.generic.externalProcessing.sent">The following file(s) sent to Charlesworth</message>
+	<message key="plugins.generic.externalProcessing.settings">Charlesworth Plugin Settings</message>
+	<message key="plugins.generic.externalProcessing.settings.description">Settings for the Charlesworth Plugin</message>
+	<message key="plugins.generic.externalProcessing.xml.import.article.update.failed">Could not update article metadata.</message>
+	<message key="plugins.generic.externalProcessing.xml.import.article.update.fileNotFound">Could not open XML file. Please confirm it exists.</message>
+	<message key="plugins.generic.externalProcessing.xml.import.article.update.succeeded">Updated article metadata from received XML</message>
+	<message key="plugins.generic.externalProcessing.xml.import.author.update.failed">Could not update author for article.</message>
+	<message key="plugins.generic.externalProcessing.xml.import.author.update.succeed">Updated author for article.</message>
+	<message key="plugins.generic.externalProcessing.xml.import.author.insert.failed">Could not add new author to article.</message>
+	<message key="plugins.generic.externalProcessing.xml.import.author.insert.succeed">Added new author to article.</message>
+	<message key="plugins.generic.externalProcessing.xml.import.author.generic.error">Could not update author for unknown reasons.</message>	
+    
+   
+</locale>
